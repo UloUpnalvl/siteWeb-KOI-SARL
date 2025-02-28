@@ -302,3 +302,28 @@ nav .menu {
   bottom: 1rem;
   right: 1rem;
 }
+
+/* #################### */
+/* apropos*/
+/* #################### */
+
+.about-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 1.5rem;
+
+}
+.about-img img{
+  width: 100%;
+}
+.about-content span{
+  color: var(--main);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.about-content p{
+  margin: 1rem 0 2rem ;
+  font-size: 1.2rem;
+}
